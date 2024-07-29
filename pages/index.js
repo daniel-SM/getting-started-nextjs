@@ -1,7 +1,9 @@
+import styles from "../styles/Home.module.css";
+
 export default function Home() {
   return (
     <>
-      <h1>Bem-vindo a Home!</h1>
+      <h1 className={styles.title}>Bem-vindo a Home!</h1>
     </>
   );
 }
